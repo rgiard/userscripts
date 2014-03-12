@@ -10,3 +10,4 @@ I use this script with Tampermonkey for Chrome: http://tampermonkey.net/
 - Click on "Options" of the "Tampermonkey" extension
 - Click on new userscripts icon
 - Copy / Paste the content of the file github-PR-full-width.js 
+- Save the script
