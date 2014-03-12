@@ -11,7 +11,8 @@ function updateCSS() {
   var style = document.getElementsByTagName('head')[0].appendChild(document.createElement('style'));
   style.textContent = ".container {width: 90%;}";
   style.textContent += " .repository-content {width:95% !important;}";
-  style.textContent += " .discussion-timeline {width: 90%;}"
+  style.textContent += " .discussion-timeline {width: 90%;}";
+  style.textContent += " .meta span.css-truncate-target {max-width: 100% !important;}";
 }
 
 updateCSS();
