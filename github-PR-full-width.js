@@ -15,6 +15,7 @@ function updateCSS() {
     style.textContent += " .repository-content {width:95% !important;}";
     style.textContent += " .discussion-timeline {width: 90%;}"
     style.textContent += " .meta span.css-truncate-target, .file.has-inline-notes .diffstat+.css-truncate-target {max-width: 100% !important;}";
+    [].slice.call(document.getElementsByClassName('file-code')).forEach(function (table) { table.innerHTML = table.innerHTML.replace(/\t|(    )/g, '  '); });
 }
 
 updateCSS();
